@@ -1,0 +1,22 @@
+{
+  "name": "android-rpa-appium",
+  "version": "1.0.0",
+  "description": "Android JS RPA PoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^8.38.2"
+  },
+  "dependencies": {
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.21.0"
+  },
+  "bundledDependencies": [
+    "mocha",
+    "selenium-webdriver"
+  ]
+}
